@@ -1,0 +1,585 @@
+{
+  "metadata": {
+    "assignment": "Assignment 1 - Executive Productivity Agent",
+    "simulation_start": "2026-09-21",
+    "simulation_end": "2026-09-25",
+    "executive": "Arjun Malhotra",
+    "role": "VP Sales",
+    "timezone": "Asia/Kolkata"
+  },
+
+  "people": [
+    {
+      "name": "Arjun Malhotra",
+      "role": "VP Sales",
+      "email": "arjun.malhotra@veridian-corp.example",
+      "is_executive": true
+    },
+    {
+      "name": "Neha Kapoor",
+      "role": "Marketing Lead",
+      "email": "neha.kapoor@veridian-corp.example",
+      "is_executive": false
+    },
+    {
+      "name": "Raghav Sethi",
+      "role": "Ops Manager",
+      "email": "raghav.sethi@veridian-corp.example",
+      "is_executive": false
+    },
+    {
+      "name": "Divya Rao",
+      "role": "Finance",
+      "email": "divya.rao@veridian-corp.example",
+      "is_executive": false
+    },
+    {
+      "name": "Priya Nair",
+      "role": "Meridian Logistics",
+      "email": "priya.nair@meridianlogistics.example",
+      "is_executive": false
+    },
+    {
+      "name": "Facilities",
+      "role": "Internal distribution list",
+      "email": "facilities@veridian-corp.example",
+      "is_executive": false
+    }
+  ],
+
+  "meetings": [
+    {
+      "id": "meeting_001",
+      "title": "Leadership Sync",
+      "date": "2026-09-21",
+      "start_time": "09:00",
+      "end_time": "09:35",
+      "attendees": [
+        "Arjun Malhotra",
+        "Neha Kapoor",
+        "Raghav Sethi",
+        "Divya Rao"
+      ],
+      "transcript": [
+        {
+          "speaker": "Arjun Malhotra",
+          "text": "Let's keep this quick. Neha, where are we on the Q3 campaign deck?"
+        },
+        {
+          "speaker": "Neha Kapoor",
+          "text": "Draft is 80% done. I'll send it to Arjun for review by Wednesday."
+        },
+        {
+          "speaker": "Arjun Malhotra",
+          "text": "Good. Also, remind me - I told Raghav I'd send him the updated vendor list. I'll get that to him by end of day tomorrow."
+        },
+        {
+          "speaker": "Raghav Sethi",
+          "text": "Appreciated. Separately, the Mumbai office renewal paperwork needs someone to sign off this week. Not sure whose desk that's on right now."
+        },
+        {
+          "speaker": "Divya Rao",
+          "text": "I think that's supposed to be Facilities, but I haven't seen anyone pick it up."
+        },
+        {
+          "speaker": "Arjun Malhotra",
+          "text": "Okay, flag it, don't assume."
+        },
+        {
+          "speaker": "Arjun Malhotra",
+          "text": "Divya, can you also pull the July expense variance report before Thursday's board prep?"
+        },
+        {
+          "speaker": "Divya Rao",
+          "text": "Yes, I'll have it ready Wednesday evening."
+        },
+        {
+          "speaker": "Arjun Malhotra",
+          "text": "One more thing - client call with Meridian Logistics got pushed. I need to reconfirm the new time with their team myself."
+        },
+        {
+          "speaker": "Neha Kapoor",
+          "text": "Also, just a reminder, the campaign deck review - I said Wednesday, but realistically Thursday morning is safer."
+        },
+        {
+          "speaker": "Arjun Malhotra",
+          "text": "Noted."
+        }
+      ]
+    }
+  ],
+
+  "calendars": {
+    "Arjun Malhotra": [
+      {
+        "date": "2026-09-21",
+        "start": "09:00",
+        "end": "09:35",
+        "event": "Leadership Sync"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "14:00",
+        "end": "14:30",
+        "event": "1:1 with Neha"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "16:00",
+        "end": "17:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "11:00",
+        "end": "12:00",
+        "event": "Internal Budget Review"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "15:00",
+        "end": "15:30",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "15:00",
+        "end": "15:30",
+        "event": "Call - Meridian Logistics"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "18:00",
+        "end": "18:15",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "09:00",
+        "end": "10:00",
+        "event": "Board Prep Session"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "16:00",
+        "end": "17:00",
+        "event": "Hiring Panel - Sales Associate"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "10:00",
+        "end": "10:30",
+        "event": "Facilities Check-in"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "13:00",
+        "end": "14:00",
+        "event": "Blocked"
+      }
+    ],
+
+    "Neha Kapoor": [
+      {
+        "date": "2026-09-21",
+        "start": "10:00",
+        "end": "11:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "14:00",
+        "end": "14:30",
+        "event": "1:1 with Arjun"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "13:00",
+        "end": "14:00",
+        "event": "Campaign Vendor Call"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "10:00",
+        "end": "10:30",
+        "event": "Deck Prep"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "13:00",
+        "end": "15:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "09:30",
+        "end": "10:00",
+        "event": "Deck Review with Arjun"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "11:00",
+        "end": "12:00",
+        "event": "Blocked"
+      }
+    ],
+
+    "Raghav Sethi": [
+      {
+        "date": "2026-09-21",
+        "start": "09:00",
+        "end": "09:35",
+        "event": "Leadership Sync"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "13:00",
+        "end": "14:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "11:00",
+        "end": "12:00",
+        "event": "Internal Budget Review"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "15:30",
+        "end": "16:00",
+        "event": "Ops Standup"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "09:00",
+        "end": "11:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "14:00",
+        "end": "15:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "10:00",
+        "end": "10:30",
+        "event": "Facilities Check-in"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "15:00",
+        "end": "16:00",
+        "event": "Blocked"
+      }
+    ],
+
+    "Divya Rao": [
+      {
+        "date": "2026-09-21",
+        "start": "14:30",
+        "end": "15:00",
+        "event": "Budget Prep"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "16:00",
+        "end": "17:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "09:00",
+        "end": "09:15",
+        "event": "Quick Call with Arjun"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "11:00",
+        "end": "12:00",
+        "event": "Internal Budget Review"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "13:00",
+        "end": "14:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "09:00",
+        "end": "10:00",
+        "event": "Board Prep Session"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "14:00",
+        "end": "15:00",
+        "event": "Blocked"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "10:00",
+        "end": "11:00",
+        "event": "Blocked"
+      }
+    ]
+  },
+
+  "emails": [
+    {
+      "thread_id": "thread_001",
+      "subject": "Vendor List",
+      "messages": [
+        {
+          "id": "email_001_1",
+          "date": "2026-09-21",
+          "time": "09:50",
+          "from": "Raghav Sethi",
+          "to": ["Arjun Malhotra"],
+          "text": "Following up from the sync - can you send the updated vendor list today?"
+        },
+        {
+          "id": "email_001_2",
+          "date": "2026-09-21",
+          "time": "17:40",
+          "from": "Arjun Malhotra",
+          "to": ["Raghav Sethi"],
+          "text": "Running behind, will send first thing tomorrow morning instead."
+        },
+        {
+          "id": "email_001_3",
+          "date": "2026-09-22",
+          "time": "09:15",
+          "from": "Raghav Sethi",
+          "to": ["Arjun Malhotra"],
+          "text": "No worries, whenever you get a chance today works."
+        },
+        {
+          "id": "email_001_4",
+          "date": "2026-09-22",
+          "time": "18:30",
+          "from": "Arjun Malhotra",
+          "to": ["Raghav Sethi"],
+          "text": "Sorry, got pulled into board prep - will send by tomorrow (Wednesday) morning for sure."
+        },
+        {
+          "id": "email_001_5",
+          "date": "2026-09-23",
+          "time": "08:45",
+          "from": "Raghav Sethi",
+          "to": ["Arjun Malhotra"],
+          "text": "Just checking - still good for this morning?"
+        }
+      ]
+    },
+
+    {
+      "thread_id": "thread_002",
+      "subject": "Q3 Campaign Deck",
+      "messages": [
+        {
+          "id": "email_002_1",
+          "date": "2026-09-21",
+          "time": "11:00",
+          "from": "Neha Kapoor",
+          "to": ["Arjun Malhotra"],
+          "text": "Deck's coming together, still targeting Wednesday for your review."
+        },
+        {
+          "id": "email_002_2",
+          "date": "2026-09-22",
+          "time": "16:15",
+          "from": "Neha Kapoor",
+          "to": ["Arjun Malhotra"],
+          "text": "Heads up - shifting the review to Thursday morning instead of Wednesday, need one more day on the data slides."
+        },
+        {
+          "id": "email_002_3",
+          "date": "2026-09-23",
+          "time": "10:00",
+          "from": "Arjun Malhotra",
+          "to": ["Neha Kapoor"],
+          "text": "Understood, Thursday morning works. What time exactly?"
+        },
+        {
+          "id": "email_002_4",
+          "date": "2026-09-23",
+          "time": "10:20",
+          "from": "Neha Kapoor",
+          "to": ["Arjun Malhotra"],
+          "text": "Let's say 9:30 AM Thursday, before your board prep block."
+        },
+        {
+          "id": "email_002_5",
+          "date": "2026-09-24",
+          "time": "08:00",
+          "from": "Neha Kapoor",
+          "to": ["Arjun Malhotra"],
+          "text": "Deck is ready, attaching the draft ahead of our 9:30 review."
+        }
+      ]
+    },
+
+    {
+      "thread_id": "thread_003",
+      "subject": "Call Reschedule",
+      "messages": [
+        {
+          "id": "email_003_1",
+          "date": "2026-09-21",
+          "time": "13:00",
+          "from": "Priya Nair",
+          "to": ["Arjun Malhotra"],
+          "text": "Our scheduled call this week got bumped from our side - can you propose a new time? We're flexible Tuesday-Thursday afternoons."
+        },
+        {
+          "id": "email_003_2",
+          "date": "2026-09-22",
+          "time": "15:00",
+          "from": "Arjun Malhotra",
+          "to": ["Priya Nair"],
+          "text": "Apologies for the delay - how about Wednesday 3:00 PM?"
+        },
+        {
+          "id": "email_003_3",
+          "date": "2026-09-22",
+          "time": "17:45",
+          "from": "Priya Nair",
+          "to": ["Arjun Malhotra"],
+          "text": "Wednesday 3 PM works on our end, confirmed."
+        },
+        {
+          "id": "email_003_4",
+          "date": "2026-09-23",
+          "time": "13:30",
+          "from": "Priya Nair",
+          "to": ["Arjun Malhotra"],
+          "text": "Quick check - still on for 3 PM today?"
+        },
+        {
+          "id": "email_003_5",
+          "date": "2026-09-23",
+          "time": "14:00",
+          "from": "Arjun Malhotra",
+          "to": ["Priya Nair"],
+          "text": "Yes, confirmed, see you at 3."
+        }
+      ]
+    },
+
+    {
+      "thread_id": "thread_004",
+      "subject": "Expense Variance Report",
+      "messages": [
+        {
+          "id": "email_004_1",
+          "date": "2026-09-21",
+          "time": "14:30",
+          "from": "Divya Rao",
+          "to": ["Arjun Malhotra"],
+          "text": "Starting on the July variance numbers, targeting Thursday morning for board prep as discussed."
+        },
+        {
+          "id": "email_004_2",
+          "date": "2026-09-22",
+          "time": "09:00",
+          "from": "Arjun Malhotra",
+          "to": ["Divya Rao"],
+          "text": "Actually, can I get it by Wednesday evening instead? Want time to review before Thursday."
+        },
+        {
+          "id": "email_004_3",
+          "date": "2026-09-22",
+          "time": "09:40",
+          "from": "Divya Rao",
+          "to": ["Arjun Malhotra"],
+          "text": "Wednesday evening is tight but doable, I'll prioritize it."
+        },
+        {
+          "id": "email_004_4",
+          "date": "2026-09-23",
+          "time": "18:00",
+          "from": "Divya Rao",
+          "to": ["Arjun Malhotra"],
+          "text": "Report attached, sent as promised."
+        },
+        {
+          "id": "email_004_5",
+          "date": "2026-09-23",
+          "time": "18:10",
+          "from": "Arjun Malhotra",
+          "to": ["Divya Rao"],
+          "text": "Got it, thank you - exactly what I needed before tomorrow."
+        }
+      ]
+    },
+
+    {
+      "thread_id": "thread_005",
+      "subject": "Mumbai Office Lease Renewal",
+      "messages": [
+        {
+          "id": "email_005_1",
+          "date": "2026-09-21",
+          "time": "10:15",
+          "from": "Facilities",
+          "to": ["All Staff"],
+          "text": "Reminder: the Mumbai office lease renewal requires an authorized signature by Friday, 25 September."
+        },
+        {
+          "id": "email_005_2",
+          "date": "2026-09-22",
+          "time": "11:00",
+          "from": "Raghav Sethi",
+          "to": ["Arjun Malhotra", "Divya Rao"],
+          "text": "Following up from the sync - has anyone confirmed who's signing off on the Mumbai renewal? Don't think it's been assigned."
+        },
+        {
+          "id": "email_005_3",
+          "date": "2026-09-23",
+          "time": "09:30",
+          "from": "Divya Rao",
+          "to": ["Raghav Sethi", "Arjun Malhotra"],
+          "text": "Not on my end - I believe this typically sits with Facilities directly, not us."
+        },
+        {
+          "id": "email_005_4",
+          "date": "2026-09-24",
+          "time": "16:00",
+          "from": "Facilities",
+          "to": ["All Staff"],
+          "text": "Second reminder: signature is still pending. Deadline is Friday, 25 September, end of day."
+        },
+        {
+          "id": "email_005_5",
+          "date": "2026-09-24",
+          "time": "16:45",
+          "from": "Raghav Sethi",
+          "to": ["Arjun Malhotra"],
+          "text": "This is now one day out and still unowned - can you confirm who's handling it?"
+        }
+      ]
+    }
+  ],
+
+  "voice_notes": [
+    {
+      "id": "voice_001",
+      "date": "2026-09-21",
+      "time": "18:40",
+      "speaker": "Arjun Malhotra",
+      "type": "personal_voice_memo",
+      "text": "Quick note to self - need to get Raghav that vendor list, I think I said today but it might slip to tomorrow morning, remind me. Also still haven't heard back on the Mumbai lease thing, someone needs to own that, I don't think it's me."
+    },
+    {
+      "id": "voice_002",
+      "date": "2026-09-23",
+      "time": "08:15",
+      "speaker": "Arjun Malhotra",
+      "type": "personal_voice_memo",
+      "text": "Reminder - expense variance report from Divya needs to be in my hands by Wednesday evening, not Thursday, I want time to go through it before board prep. Also Meridian call - I owe Priya a time, need to lock that in today."
+    }
+  ]
+}
